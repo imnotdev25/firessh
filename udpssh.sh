@@ -8,10 +8,10 @@ mkdir -p /root/udp
 
 # install udp-custom
 echo downloading udp-custom
-wget -q --show-progress 
+wget -q --show-progress https://github.com/imnotdev25/firessh/raw/main/udpssh/udp-custom
 
 echo downloading default config
-wget -q --show-progress 
+wget -q --show-progress https://github.com/imnotdev25/firessh/raw/main/udpssh/config.json
 
 if [ -z "$1" ]; then
 cat <<EOF > /etc/systemd/system/udp-custom.service
