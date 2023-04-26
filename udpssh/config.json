@@ -1,0 +1,8 @@
+{
+  "stream_buffer": 33554432,
+  "receive_buffer": 83886080,
+  "user": "firessh",
+  "auth": {
+    "mode": "passwords",
+    "pass": ["httpio"]
+  }
