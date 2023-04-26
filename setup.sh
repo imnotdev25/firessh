@@ -200,6 +200,8 @@ wget https://raw.githubusercontent.com/imnotdev25/firessh/main/sshws/insshws.sh 
 clear
 wget https://raw.githubusercontent.com/imnotdev25/firessh/main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 clear
+wget https://raw.githubusercontent.com/imnotdev25/firessh/main/udpssh.sh && chmod +x udpssh.sh && ./udpssh.sh
+clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
