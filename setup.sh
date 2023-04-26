@@ -198,6 +198,8 @@ clear
 wget https://raw.githubusercontent.com/imnotdev25/firessh/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/imnotdev25/firessh/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
+wget https://raw.githubusercontent.com/imnotdev25/firessh/main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
@@ -260,6 +262,8 @@ echo "   - Vmess gRPC               : 443" | tee -a log-install.txt
 echo "   - Vless gRPC               : 443" | tee -a log-install.txt
 echo "   - Trojan gRPC              : 443" | tee -a log-install.txt
 echo "   - Shadowsocks gRPC         : 443" | tee -a log-install.txt
+echo "   - SlowDNS                  : 2222,2269" | tee -a log-install.txt
+echo "   - UDP SSH                  : 1-66500" | tee -a log-install.txt
 echo ""
 echo ""
 echo "------------------------------------------------------------"
